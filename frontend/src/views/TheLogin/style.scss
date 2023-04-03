@@ -1,0 +1,46 @@
+
+.container-config {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    height: 100%;
+    max-width: 1400px;
+  }
+  
+  .logo-client {
+    width: 250px;
+  }
+  
+  .title-login {
+    margin: 20px;
+    color: #474747;
+  }
+  
+  .background-left-down {
+    background-color: #e0e0e0;
+  }
+  
+  .background-left {
+    background-color: #00a2ff;
+    height: 600px;
+    border-radius: 0 0 150px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .background-right {
+    background-color: #e0e0e0;
+    height: auto;
+  }
+  
+  .background-right-inner {
+    background-image: url('@/assets/img/img_login.png');
+    background-repeat: no-repeat, repeat;
+    background-size: cover;
+    background-color: #11f7ff;
+    border-radius: 0 0 0 150px;
+    height: 100%;
+    font-size: xx-large;
+  }
